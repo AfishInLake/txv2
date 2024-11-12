@@ -19,7 +19,7 @@ from PyQt5.QtWidgets import QMainWindow, QWidget, QHBoxLayout, QVBoxLayout, QLab
 
 from txv2.gui.MenuBar import MenuBar
 from txv2.gui.Plug import PluginInterface
-from txv2.settings import DIR
+from settings import DIR
 
 
 def exception_handler(method):
